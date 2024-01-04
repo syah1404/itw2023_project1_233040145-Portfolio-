@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyPortfolio</title>
+        <link rel="stylesheet" href="assets/style.css">
+        <!-- Font awesome -->
+        <script src="https://unpkg.com/feather-icons"></script>
+        <!-- aos -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="head">
+            <a href="#" class="logo">SyahPutra.</a>
+            <div class="navbar">
+                <a href="#" class="active" style="--i:1">HOME</a>
+                <a href="#about" class="active" style="--i:2">ABOUT</a>
+                <a href="#education" class="active" style="--i:3">EDUCATION</a>
+                <a href="#hobby" class="active" style="--i:4">HOBBY</a>
+                <a href="#contact" class="active" style="--i:5">CONTACT</a>
+            </div>
+            <div class="social-media">
+                <a href="#" style="--i:7"><i data-feather="linkedin"></i></a>
+                <a href="syah1404" style="--i:8"><i data-feather="github"></i></a>
+                <a href="https://instagram.com/putraaa.sopiyan" style="--i:9"><i data-feather="instagram"></i></a>
+            </div>
+        </div>
+
+        <!-- Home -->
+
+        <div class="home">
+            <div class="home-content">
+                <div class="teks">
+                    <h3>Hello, It's Me</h3>
+                    <h1>Syah Putra Sopiyan</h1>
+                    <h3>And I'm a <span class="multi-text">Frontend Developer</span></h3>
+                    <p>Student in UNIVERSITAS PASUNDAN </p><br><br>
+                    <div class="download">
+                        <a href="#" class="button">Download CV</a>
+                    </div>
+                </div>
+                <div class="home-img" data-aos="flip-left" data-aos-duration="1500"></div>
+            </div>
+        </div>
+
+        <!-- about -->
+
+        <div id="about">
+            <div class="about-page" data-aos="flip-left" data-aos-duration="1500">
+                <img src="./image/WhatsApp Image 2023-12-22 at 19.40.41.jpeg" alt="" width="250px" height="250px">
+                <h1>About Me</h1>
+                <div class="about-content">
+                    <div class="teks">
+                        <p>Hi, my name is Syah Putra Sopiyan. I am a student at one of the universities in Bandung,
+                            namely
+                            Pasundan University, I am a student majoring in Information Engineering, because I want to
+                            be
+                            able to create my own website and want to master full stack, I graduated from high school in
+                            Pandeglang Banten with the name SMAN 6 PANDEGLANG. I was born in Jakarta on April 14 2005,
+                            come see
+                            my portfolio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- education -->
+
+        <div id="education" class="education">
+            <h1>Education</h1>
+            <div class="education-img" data-aos="flip-left" data-aos-duration="1500">
+                <div class="img sd">
+                    <div class="deskripsi">
+                        <h1>SDN SEKONG 2</h1>
+                    </div>
+                </div>
+                <div class="img smp">
+                    <div class="deskripsi">
+                        <h1>SMPN 3 CIMANUK</h1>
+                    </div>
+                </div>
+                <div class="img sma">
+                    <div class="deskripsi">
+                        <h1>SMAN 6 PANDEGLANG</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- hobby -->
+
+        <div id="hobby">
+            <h1>Hobby</h1>
+            <div class="hobby-content" data-aos="flip-left" data-aos-duration="1500">
+                <div class="hobby-img"></div>
+                <p>Ini adalah hobi saya</p>
+
+            </div>
+        </div>
+
+
+        <!-- contact -->
+
+        <div id="contact">
+            <div class="contact" data-aos="flip-left" data-aos-duration="1500">
+                <h1>Contact Me</h1>
+                <form>
+                    Name
+                    <input type="text" placeholder="Your Name">
+                    E-mail
+                    <input type="email" placeholder="Your E-mail">
+                    Comment
+                    <textarea name="Comment" id="Comment" cols="30" rows="10" placeholder="Your Comment"></textarea>
+                    <button class="btn contact-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- aos -->
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
+
+        <!-- social media -->
+
+        <footer>
+            Copyright. Syah Putra 2023.
+        </footer>
+
+        <script>
+            feather.replace();
+        </script>
+
+
+    </body>
+
+</html>
